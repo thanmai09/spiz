@@ -1,0 +1,21 @@
+MMA HYD asset notes
+===================
+
+Originals are unmodified in ../original/
+
+Vector status
+- CorelDRAW package contains 376 curves, but they live in proprietary .dat files and cannot be converted without CorelDRAW.
+- MMA HYD.ai is PDF 1.5 (Corel PDF Engine). PyMuPDF finds no extractable drawings, images, or text. Rasterizing the page produces a blank white canvas. Artwork is stored in private PDF PieceInfo, not web-usable SVG.
+
+What was used
+- CDR previews (thumbnail.png / page1.png) for layout, colors, and branding.
+- Document palette color R48 G62 B45 -> #303E2D (body).
+- Dominant pattern color sampled as #3C5841.
+
+Approximations in the interactive SVG
+- Jersey is a garment-shaped preview, not the production flat rectangles.
+- Hex/chevron mesh is an SVG pattern inspired by the client texture, not the original curve data.
+- Crest (horned shield), HYDERABAD, APFC, iFL, 12R, and UFC FIGHT PASS are redrawn from the client preview. They are not extracted logo files.
+- Collar is a sports V-collar added for the configurator; the production flat does not include a separate collar piece.
+
+Do not treat logos as official brand files. They exist only to represent the supplied artwork in this local MVP.
